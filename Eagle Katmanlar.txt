@@ -1,0 +1,29 @@
+Katman 51: tDocu'ya ek serigrafi yerleştirmeyi düşünün. Bu katman, üretim verilerinize dahil edilmeyecek veya PCB'nize yazdırılmayacaktır, böylece çok daha fazla ayrıntı ekleyebilirsiniz. Bununla birlikte, normal serigrafi ekranın dışında, metin veya logo gibi herhangi bir ek resim eklemek istiyorsanız, o zaman Katman 21-22 bunu yapabileceğiniz yerdir.
+
+
+Katman 25-26: tNames / bNames
+Adından da anlaşılacağı gibi, bu iki katman bileşen adlarınız için hem üst hem de alt baskıyı içerir. PCB'nizdeki her bileşenin, aynı zamanda referans göstergesi olarak da adlandırılan benzersiz bir adı vardır ve R1, C1, D1 vb. Gibi görünecektir.
+
+
+Katman 27-28: tValues ​​/ bValues
+Yine adından da anlaşılacağı gibi, bu iki katman panonuzdaki her bileşen için belirli değerleri içerir. Örneğin, bir direncin kendine özgü direnci, belki 10K olarak listelenecektir. Veya bir kapasitör için, listelenen kapasitansı, belki 0.1 uF olarak göreceksiniz.
+
+Pek çok tasarımcı bu katmanı fiziksel PCB'lerine dahil etmemeyi tercih ediyor, bunun yerine belirli bir bileşenin referans göstericisine bakarak başvurabilecekleri bir Malzeme Listesi (BOM) kullanmayı tercih ediyor. Bununla birlikte, bir kit veya elle monte edilmiş bir kart için bir PCB tasarlamayı planlıyorsanız, PCB'nizdeki hem bileşen adlarını hem de değerleri listelemek çok yararlıdır. Bu, montaj sürecini sindirmeyi çok daha kolaylaştıracaktır.
+
+
+
+Katman 29-30: tStop / bStop
+Bu iki katman, lehim maskenizin nereye uygulanmaması gerektiğini gösterir. Geçiş delikli veya yüzeye montaj bileşenlerini yerleştirirken, bu parçalar tipik olarak bu iki katman üzerinde bulunan bir lehim maskesi genişletme alanı içerecektir.
+
+Lehim maskesinin uygulanmasını istemediğiniz bir alanı tanımlamak, bakırınızın üzerinde lehim parçaları için alan sağlayacaktır. Bu katmanı, belirli bakır alanlarını açığa çıkararak soğutucu veya altın sanat eseri gibi özel yapılar çizmek için de kullanabilirsiniz.
+
+
+Katman 45: Delikler
+Bu katman Matkaplar'a benzer, ancak kaplanmamış montaj delikleri gibi elektrik iletmesi gerekmeyen delikler için tüm verileri içerir.
+
+
+Katman 47: Ölçüler
+Bu katman, kartınızın anahatlarının boyutları ve hatta bileşenler arasındaki boşluk gibi kartınızda yapmanız gereken tüm ölçümleri içerir. Bu katmanın kişisel referansınız için olduğunu ve üreticinize gönderilen verilerin bir parçası olmayacağını unutmayın
+
+
+Son olarak, PCB'nizin üstü ve altı için iki belge katmanına sahibiz. Bu katmanlar üretim dosyalarınıza dahil edilmeyecek, bunun yerine tasarımınıza referans verirken veya gözden geçirirken dahil edilecek kullanışlı bir ayrıntılar kümesidir. Bu katmanları yerleştirirken göz önünde bulundurmanız gereken bazı şeyler, hem bileşenlerinizin hem de muhafazalarınızın mekanik boyutlarını içerir.
