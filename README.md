@@ -19,3 +19,10 @@ change ratio 15 (C>0 0); # Genişlik: yükseklik oranını değiştirin
 display last; #Son halini göster
 
 - EAGLE YAZI KOMUTLARI SON
+
+- LEZZETLİ ROBOT TARİFLERİ EAGLE BAŞLANGIÇ YAYINLARI
+
+> https://www.youtube.com/watch?v=clBWAKnVNWI  # Sıfırdan EAGLE ile PCB tasarım yayınları başlıyor - ( Bölüm 0 )
+> https://www.youtube.com/watch?v=m92im1b6kVI  # Eagle Ne ile Başlayıp, Sıfırdan Kart Çizip, Üretime Göndereceğiz! ( PART 1 / 2)
+> https://www.youtube.com/watch?v=JgwcVjCoXeo  # Eagle Ne ile Başlayıp, Sıfırdan Kart Çizip, Üretime Göndereceğiz! ( PART 2 / 2)
+
