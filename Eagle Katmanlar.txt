@@ -27,6 +27,3 @@ Bu katman, kartınızın anahatlarının boyutları ve hatta bileşenler arasın
 
 
 Son olarak, PCB'nizin üstü ve altı için iki belge katmanına sahibiz. Bu katmanlar üretim dosyalarınıza dahil edilmeyecek, bunun yerine tasarımınıza referans verirken veya gözden geçirirken dahil edilecek kullanışlı bir ayrıntılar kümesidir. Bu katmanları yerleştirirken göz önünde bulundurmanız gereken bazı şeyler, hem bileşenlerinizin hem de muhafazalarınızın mekanik boyutlarını içerir.
-
-
-deneme branci
