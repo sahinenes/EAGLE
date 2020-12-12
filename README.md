@@ -1,5 +1,5 @@
 ## EAGLE 
-# EAGLE YAZI KOMUTLARI BAŞLANGIÇ 
+# EAGLE YAZI KOMUTLARI 
 
 group all;            # Her şeyi grupla
     
