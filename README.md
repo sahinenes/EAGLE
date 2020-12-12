@@ -1,4 +1,4 @@
-## EAGLE 
+## EAGLE PROGRAMI
 # EAGLE YAZI KOMUTLARI BAŞLANGIÇ 
 
 group all;            # Her şeyi grupla
